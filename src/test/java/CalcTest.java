@@ -25,4 +25,11 @@ public class CalcTest {
         Assert.assertEquals(EXPECTED, res, 0.0001);
     }
 
+    @Test
+    public void mul() {
+        double EXPECTED = 12;
+        double res = calc.mul(4, 3);
+        Assert.assertEquals(EXPECTED, res, 0.0001);
+    }
+
 }
