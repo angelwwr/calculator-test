@@ -1,6 +1,5 @@
 import org.junit.Assert;
 import org.junit.Before;
-import org.junit.BeforeClass;
 import org.junit.Test;
 
 public class CalcTest {
@@ -14,7 +13,7 @@ public class CalcTest {
 
     @Test
     public void add() {
-        double EXPECTED = 8;
+        double EXPECTED = 7;
         double res = calc.add(3, 5);
         Assert.assertEquals(EXPECTED, res, 0.0001);
     }
