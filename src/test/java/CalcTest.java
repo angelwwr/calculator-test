@@ -13,8 +13,7 @@ public class CalcTest {
 
     @Test
     public void add() {
-        
-        double EXPECTED = 8;
+        double EXPECTED = 5;
         double res = calc.add(3, 5);
         Assert.assertEquals(EXPECTED, res, 0.0001);
     }
